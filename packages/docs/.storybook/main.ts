@@ -26,5 +26,12 @@ const config: StorybookConfig = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = '/moiseizin-ui/'
+    }
+
+    return config;
+  }
 };
 export default config;
