@@ -3,6 +3,7 @@ import * as Styles from './styles';
 
 export interface TextInputProps extends ComponentProps<typeof Styles.Input> {
   prefix?: string
+  containerProps?: ComponentProps<typeof Styles.Container>
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Styles.Input>, TextInputProps>(
