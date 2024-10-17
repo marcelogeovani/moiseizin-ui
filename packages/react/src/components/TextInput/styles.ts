@@ -7,7 +7,7 @@ export const Container = styled('div', {
   boxSizing: 'border-box',
   border: '2px solid $gray900',
   display: 'flex',
-  alignItems: 'baseline',
+  alignItems: 'center',
 
   '&:has(input:focus)': {
     borderColor: '$brand300',
@@ -17,6 +17,21 @@ export const Container = styled('div', {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
+
+  variants: {
+    size: {
+      sm: {
+        padding: '$2 $3',
+      },
+      md: {
+        padding: '$3 $4',
+      },
+    }
+  },
+
+  defaultVariants: {
+    size: 'md',
+  }
 });
 
 export const Prefix = styled('span', {
@@ -43,7 +58,7 @@ export const Input = styled('input', {
     cursor: 'not-allowed',
   },
 
-  '&:placeholder': {
+  '&::placeholder': {
     color: '$gray400',
   }
 });

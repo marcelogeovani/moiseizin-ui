@@ -52,5 +52,6 @@ export const Disabled: Story = {
 export const WithPrefix: Story = {
   args: {
     prefix: 'R$',
+    placeholder: '1200,00'
   },
 }
