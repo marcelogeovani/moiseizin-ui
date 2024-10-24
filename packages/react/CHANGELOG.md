@@ -1,5 +1,11 @@
 # @moiseizin/react
 
+## 3.1.0
+
+### Minor Changes
+
+- add tokens with dependencie
+
 ## 3.0.0
 
 ### Major Changes
