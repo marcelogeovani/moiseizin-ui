@@ -15,7 +15,6 @@
   "description": "",
   "devDependencies": {
     "@moiseizin/eslint-config": "*",
-    "@moiseizin/tokens": "*",
     "@moiseizin/ts-config": "*",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
@@ -27,6 +26,7 @@
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@stitches/react": "^1.2.8",
+    "@moiseizin/tokens": "*",
     "phosphor-react": "^1.4.1"
   }
 }
