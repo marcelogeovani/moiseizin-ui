@@ -1,5 +1,11 @@
 # @moiseizin/react
 
+## 3.3.0
+
+### Minor Changes
+
+- revert input text types
+
 ## 3.2.0
 
 ### Minor Changes
