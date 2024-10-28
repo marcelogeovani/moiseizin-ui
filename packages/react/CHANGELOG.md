@@ -1,5 +1,11 @@
 # @moiseizin/react
 
+## 3.2.0
+
+### Minor Changes
+
+- fix type
+
 ## 3.1.0
 
 ### Minor Changes
